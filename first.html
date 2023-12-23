@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        My First Web Page
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Roboto:ital,wght@0,300;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div id="navbar">
+
+        <img id="logo" alt="Jovian Logo" src="https://i.imgur.com/m1wXjqw.png" height="30" />
+    </div>
+    <img id="banner" src="banner.jpg" alt="Banner" height="240">
+    <h1>
+        About Jovian
+    </h1>
+
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                At Jovian, we're on a mission to build
+                the world's most highly reputed technical
+                university, and we're building it completely
+                online. We offer several beginner friendly
+                courses that are taken by 300,000+ registered
+                users.
+            </p>
+            <p>
+                We also offer 2 industry-focused bootcamps:
+            <ol>
+                <li>
+                    <a href="https://www.jovian.com/full-stack-developer-bootcamp">
+                        Jovian Full Stack Developer Bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.jovian.com/data-science-bootcamp">
+                        Jovian Data Science Bootcamp
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" alt="Team" src="team.jpg">
+        </div>
+    </div>
+
+
+
+
+    
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+       <table id="jobs-table">
+        <tr class="jobs-header-row"></tr>
+            <th style="border: 1px solid gray;  background-color: aliceblue; text-align:left">Job Title</th>
+            <th style="border: 1px solid gray;  background-color: aliceblue ; text-align:left">Location</th>
+            <th style="border: 1px solid gray;  background-color: aliceblue ; text-align:left">Salary</th>
+            <th style="border: 1px solid gray; background-color: aliceblue; text-align:left;">Posted</th>
+        </tr>
+
+        <tr>
+            <th>City</th>
+            <th>Country</th>
+        </tr>
+        <tr class="jobs-header-row">
+            <td>Fronted Developer</td>
+            <td>Dhaka</td>
+            <td>12,0000</td>
+            <td>12,March</td>
+        </tr>
+        
+        <tr class="jobs-header-row">
+            <td>Backend Developer</td>
+            <td>Chittagong</td>
+            <td>12,5000</td>
+            <td>12,April</td>
+        </tr>
+
+        <tr class="jobs-header-row">
+            <td>Data Scintist</td>
+            <td>Cumilla</td>
+            <td>18,5000</td>
+            <td>2,August</td>
+        </tr>
+
+        <tr class="jobs-header-row">
+            <td>Backend Developer</td>
+            <td>Chittagong</td>
+            <td>12,5000</td>
+            <td>12,April</td>
+        </tr>
+
+        <tr class="jobs-header-row">
+            <td>ML</td>
+            <td>Remote</td>
+            <td>19,00,000</td>
+            <td>12,April</td>
+        </tr>
+
+       </table>
+    </div>
+
+    <div id="application">
+        <h2>Submit Your Application Form</h2>
+    
+        <form id="application-form">
+            <div class="form-group"> 
+                <label>Full Name</label><br>
+                <input style="margin-top: 10px;" type="text" name="Full name" placeholder="name" id="name" required>
+            </div>
+            <div class="form-group">
+                <label>Email</label><br>
+                <input style="margin-top: 10px;" type="email" name="email" placeholder="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Dob/label>
+                <input style="margin-top: 10px;" type="date" name="dob" id="dod">
+            </div>
+
+            <div class="form-group">
+                <label for="position"><p>Apply For</p></label>
+                <select>
+                    <option>FrontEnd</option>
+                    <option>Backend</option>
+                    <option>DEvops</option>
+                </select> 
+
+            <div class="form-group">
+                <label>Documents</label>
+                <input type="file" id="resume" placeholder="file" accept=".pdf,.doc,.docx">
+            </div>
+            
+            <div class="form-group">
+                <label>
+                <input type="checkbox" name="checkbox"> I agree on the terms and conditions
+            </label>
+
+            </div>
+
+        </form>
+    </div>
+    
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">
+                    Courses
+                </a>
+            </li>
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">
+                    Programs
+                </a>
+            </li>
+            <li>
+                <a href="https://youtube.com/@jovianhq" target="_blank">
+                    YouTube
+                </a>
+            </li>
+        </ul>
+        <span class="copyright">© 2023, Jovian </span>
+    </div>
+
+</body>
+
+</html>
